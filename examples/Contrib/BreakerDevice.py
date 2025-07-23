@@ -11,7 +11,7 @@ from tinytuya import Contrib
 import json
 import time
 
-d = BreakerDevice('abcdefghijklmnop123456', '10.10.10.10', '1234567890123abc')
+d = Contrib.BreakerDevice('abcdefghijklmnop123456', '10.10.10.10', '1234567890123abc')
 d.set_version(3.4)
 
 pingtime = time.time() + 9
